@@ -417,7 +417,7 @@ function tokenize(text, options, callback) {
          * - `\n` - Newline - linefeed (LF) (ascii 10)
          * - `\r` - Windows Carriage Return (CR)
          */
-        pattern: /^(([^\x1b\x08\r\n])+)/,
+        pattern: /^(([^\x1b\x08])+)/,
         sub: realText
     }];
 
